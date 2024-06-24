@@ -1,0 +1,20 @@
+{
+  "name": "website_screenshots",
+  "version": "1.0.0",
+  "description": "A script to take screenshots of websites listed in a CSV file and save the paths in the CSV.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "puppeteer": "^19.11.1"
+  }
+}
